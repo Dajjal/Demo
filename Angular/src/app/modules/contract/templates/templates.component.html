@@ -1,0 +1,17 @@
+<nz-radio-group [(ngModel)]="header_button_selected">
+  <label nz-radio-button nzValue="my">{{ 'CONTRACT.TEMPLATES.MY_TEMPLATES' | translate }}</label>
+  <label nz-radio-button nzValue="standard">{{ 'CONTRACT.TEMPLATES.STANDARD' | translate }}</label>
+  <label nz-radio-button nzValue="create">{{ 'CONTRACT.TEMPLATES.CREATE' | translate }}</label>
+</nz-radio-group>
+
+@switch (header_button_selected) {
+  @case ('my') {
+    <div>MY TEMPLATES</div>
+  }
+  @case ('standart') {
+    <div>STANDARD</div>
+  }
+  @case ('create') {
+    <app-create-template></app-create-template>
+  }
+}

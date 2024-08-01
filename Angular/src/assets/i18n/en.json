@@ -1,0 +1,13 @@
+{
+  "CONTRACT": {
+    "COMPANY": "Company",
+    "TEMPLATES": {
+      "SINGLE": "Шаблон",
+      "MANY": "Шаблоны",
+      "MY_TEMPLATES": "Мои шаблоны",
+      "STANDARD": "Стандартные",
+      "CREATE": "Создать шаблон"
+    },
+    "SEARCH": "My Contracts"
+  }
+}
